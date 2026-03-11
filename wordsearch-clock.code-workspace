@@ -1,0 +1,16 @@
+{
+  "folders": [
+    { "path": "firmware-pico" },
+    { "path": "resources" }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/__pycache__": true
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.diagnosticSeverityOverrides": {
+      "reportMissingModuleSource": "none",
+      "reportShadowedImports": "none"
+    }
+  }
+}
