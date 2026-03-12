@@ -4,7 +4,7 @@ import FreeCAD as App
 import Part, Draft
 
 # Hard-wired JSON filename - change to match your installation
-json_path = r"D:\GitHub\PICO-wordsearch-clock/firmware/clockface.json"
+json_path = r"D:\GitHub\PICO-wordsearch-clock\firmware-PICO\clockface.json"
 
 if App.ActiveDocument==None:
     doc = App.newDocument("PrintedWordsearch")
@@ -34,6 +34,8 @@ def find_font(explicit_path=None):
         # macOS
         "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
         "/Library/Fonts/Arial Bold.ttf",
+        # Flatpak
+        "/usr/share/fonts/liberation-fonts/LiberationSans-Bold.ttf"
     ]
     for p in candidates:
         if os.path.exists(p):

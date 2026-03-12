@@ -8,7 +8,7 @@ There are two versions of the clock. One is an alarm clock. The same software wo
 
 ## Installing the software
 
-**These instructions assume that you are familiar with MicroPython development for the Raspberry Pi PIO.**
+**These instructions assume that you are familiar with MicroPython development for the Raspberry Pi PICO.**
 
 The software is in the **firmware-PICO** folder. Install MicroPython on your device and then copy all the files in the **firmware-PICO** folder onto your device. You can use the Thonny program or Visual Studio Code with the Raspberry Pi plugin to do this. 
 
