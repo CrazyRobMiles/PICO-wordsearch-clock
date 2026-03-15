@@ -91,7 +91,8 @@
     },
     "App_wordsearch_clock": {
         "key_repeat_interval_ms": 500,
-        "number_of_audio_tracks": 54,
+        "start_audio_track_no": 3,
+        "end_audio_track_no": 20,
         "run_on_power_up": true,
         "enabled": true,
         "wordsearch_file": "clockface.json",

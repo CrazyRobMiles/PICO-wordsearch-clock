@@ -1,5 +1,6 @@
 {
   "folders": [
+    { "name": "Project", "path": "." },
     { "path": "firmware-pico" },
     { "path": "resources" }
   ],
